@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: cabin;
+	src: url( "../font/Cabin/static/Cabin_Condensed-Bold.ttf");
+}
+@font-face{
+	font-family: my;
+	src: url("../font/MYRIADPRO-BLACK.OTF")
+}
+.menu{
+	list-style: none;
+	font-family: cabin;
+/*	display: flex;*/
+	height: 50px;
+}
+.menu li{
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu li a{
+	text-decoration: none;
+	color: #4D0604;
+/*	text-transform: uppercase;*/
+	font-family: cabin;
+	font-size: 20px;
+}
+.menu li:hover {
+	border-bottom: solid 5px #FF2E26;
+	border-radius: 3px;
+	transition: ease-out 0.3s;
+}
+.box5{
+	font-family: my;
+}
+.tong{
+	background: #FFEDDA;
+}
+.nav11{
+	height: 80px;
+}
+
+.nav1 img {
+	width: 80%;
+}
+.b4 h1{
+	font-family: my;
+}
+.nav1{
+	height: 80px;
+}
+.tiemkiem{
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	background: #FFFFFF;
+	border: none;
+	border: 1px #C4C4C4 solid;
+	height: 40px;
+}
+.tk{
+	background: #FFFFFF;
+	border: none;
+	border: 1px #C4C4C4 solid;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 75%;
+	height: 40px;
+}
+.box{
+	height: 300px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.box img{
+	height: 300px;
+	
+}
+
+.box5{
+
+	height: 50px;
+	border: 2px #4D0604 solid;
+	border-radius: 50px;
+}
+.s6{
+	color: #4D0604;
+}
+.s6 h1{
+	font-family: my;
+	color: #FF2E26;
+}
+.box6{
+	height: 300px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.box6 img{
+	height: 100%;
+	
+}
+.box6 h4{
+	font-family: cabin;
+}
+.b6{
+	width: 49%;
+	height: 50px;	
+}
+.btmh{
+	width: 49%;
+	height: 50px;
+	background: none;
+	border: 2px #4D0604 solid;
+	border-radius: 10px;
+	color: #4D0604; 
+}
+.box66{
+	width: 150px;
+	height: 50px;
+	border-radius: 15px;
+}
+.b666{
+	width: 99%;
+}
+
+.b7{
+	background: #515151;
+	height: 450px;
+}
+.b7a{
+	background-image: url( "../img/wallpaper-alface.jpeg");
+	background-size: cover;
+
+}
+.b7c{
+	background-image: url("../img/Close Up Food Photography -Jenna Gang Photography - Still Life Photographer & Director.png");
+	background-size: cover;
+}
+.b7b{
+	background-image: url( "../img/50 Best Sandwiches Book.png");
+	background-size: cover;
+}
+.b7d{
+	background-image: url( "../img/FOOD — DAVID SYKES photography.jpeg");
+	background-size: cover;
+}
+
+
+.b8{
+	width: 70%;
+	color: #4D0604;
+}
+.sc{
+	width: 90px;
+	height: 90px;
+	background: #4D0604;
+	border-radius: 25px;
+}
+.b8a{
+	height: 110%;
+/*	background: #B3B3B3;*/
+}
+.cf9{
+	width: 100%;
+	height: 600px;
+	background-image: url( "../img/bn-09.jpg");
+	background-size: cover;
+}
+.b10{
+	height: 200px;
+	
+}
+.b10 p,h1,h4{
+	color: #4D0604;
+}
+
+.b10nn{
+	height: 30px;
+	background: #4D0604;
+	color: #FFEDDA;
+}
+
